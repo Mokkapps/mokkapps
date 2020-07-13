@@ -8,10 +8,10 @@ const parser = new Parser();
   const feed = await parser.parseURL("https://www.mokkapps.de/rss.xml");
   console.log(feed.title);
 
-  let text = "# Latest Blog Posts"
+  let text = "# Latest Blog Posts &nbsp;"
 
   feed.items.forEach((item) => {
-    text += `&nbsp; - ${item.title} - ${item.link}`;
+    text += `- T${item.title} : ${item.link} &nbsp;`;
   });
 
   const result = md.render(text);
