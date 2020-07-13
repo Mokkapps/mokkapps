@@ -1,0 +1,23 @@
+{
+  "name": "mokkapps",
+  "version": "1.0.0",
+  "description": "<!-- **Mokkapps/mokkapps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mokkapps/mokkapps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mokkapps/mokkapps/issues"
+  },
+  "homepage": "https://github.com/Mokkapps/mokkapps#readme",
+  "dependencies": {
+    "markdown-it": "^11.0.0"
+  }
+}
