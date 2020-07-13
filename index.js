@@ -12,7 +12,7 @@ const parser = new Parser();
 
   feed.items.forEach((item) => {
     result = md.render("# Latest Blog Posts");
-    result = md.render("- item.title + ":" + item.link");
+    result = md.render(`- ${item.title} + ":" + ${item.link}`);
     console.log(item.title + ":" + item.link);
   });
 
