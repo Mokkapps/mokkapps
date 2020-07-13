@@ -11,10 +11,10 @@ const parser = new Parser();
   let text = "# Latest Blog Posts &nbsp;"
 
   feed.items.forEach((item) => {
-    text += `- T${item.title} : ${item.link} &nbsp;`;
+    text += `- ${item.title} : ${item.link} &nbsp;`;
   });
 
-  const result = md.render(text);
+  const result = md.render("# WIP");
 
   fs.writeFile("README.md", result, function (err) {
     if (err) return console.log(err);
