@@ -11,7 +11,7 @@ const parser = new Parser();
   let text = "# Latest Blog Posts"
 
   feed.items.forEach((item) => {
-    result = md.render(`&nbsp; - ${item.title} - ${item.link}`);
+    text += `&nbsp; - ${item.title} - ${item.link}`;
   });
 
   const result = md.render(text);
