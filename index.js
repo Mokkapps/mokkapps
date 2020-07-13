@@ -8,14 +8,13 @@ const parser = new Parser();
   const feed = await parser.parseURL("https://www.mokkapps.de/rss.xml");
   console.log(feed.title);
 
-  let result = md.render("# WIP!");
+  let text = "# Latest Blog Posts"
 
   feed.items.forEach((item) => {
-    result = md.render("# Latest Blog Posts");
-    result = md.render(`- ${item.title} + ":" + ${item.link}`);
-    console.log(item.title + ":" + item.link);
+    result = md.render(`&nbsp; - ${item.title} - ${item.link}`);
   });
 
+  const result = md.render(text);
 
   fs.writeFile("README.md", result, function (err) {
     if (err) return console.log(err);
