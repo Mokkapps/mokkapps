@@ -10,6 +10,8 @@ const parser = new Parser();
 
 const feedUrl = "https://www.mokkapps.de/rss.xml";
 const websiteUrl = "https://www.mokkapps.de";
+const twitterUrl = "https://www.twitter.com/mokkapps";
+const linkedInUrl = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1";
 const blogPostLimit = 5;
 
 (async () => {
@@ -22,7 +24,7 @@ const blogPostLimit = 5;
 
   const twitterImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">`;
 
-  text = `# Latest Blog Posts\n${blogPosts}\n# Last Tweet\n${twitterImage}`;
+  text = `My name is Michael Hoffmann. I am a freelance software engineer from Germany with focus on Angular. Welcome to my GitHub page!\n\n# Latest Blog Posts\n${blogPosts}\n# Last Tweet\n${twitterImage}\n\n[Follow me on Twitter](${twitterImage}) | [Connect me on LinkedIn](${linkedInUrl}) | [Check out my website](${websiteUrl})`;
 
   const result = md.render(text);
 

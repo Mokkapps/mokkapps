@@ -19,7 +19,7 @@ tmpimg <- "tweet.png"
 tweet_screenshot(
   tweet_url(handle, recent_tweets$status_id),
   scale = 5, 
-  maxwidth = 600,
+  maxwidth = 300,
   theme = "light",
   file = tmpimg
 )
