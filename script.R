@@ -21,6 +21,6 @@ tweet_screenshot(
   scale = 5, 
   maxwidth = 600,
   theme = "light",
-  hide_media = true,
+  hide_media = TRUE,
   file = tmpimg
 )
