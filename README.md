@@ -1,9 +1,14 @@
-<h1>Latest Blog Posts</h1>
-<ul>
-<li>Property Based Testing With Typescript : <a href="https://www.mokkapps.de/property-based-testing-with-type-script/">https://www.mokkapps.de/property-based-testing-with-type-script/</a></li>
-<li>How To Generate Angular &amp; Spring Code From OpenAPI Specification : <a href="https://www.mokkapps.de/how-to-generate-angular-and-spring-code-from-open-api-specification/">https://www.mokkapps.de/how-to-generate-angular-and-spring-code-from-open-api-specification/</a></li>
-<li>Sending Message To Specific Anonymous User On Spring WebSocket : <a href="https://www.mokkapps.de/sending-message-to-specific-anonymous-user-on-spring-websocket/">https://www.mokkapps.de/sending-message-to-specific-anonymous-user-on-spring-websocket/</a></li>
-<li>Boost Your Productivity By Using The Terminal (iTerm &amp; ZSH) : <a href="https://www.mokkapps.de/boost-your-productivity-by-using-the-terminal-iterm-and-zsh/">https://www.mokkapps.de/boost-your-productivity-by-using-the-terminal-iterm-and-zsh/</a></li>
-<li>Manually Lazy Load Modules And Components In Angular : <a href="https://www.mokkapps.de/manually-lazy-load-modules-and-components-in-angular/">https://www.mokkapps.de/manually-lazy-load-modules-and-components-in-angular/</a></li>
-</ul>
-<p>More blog posts at <a href="https://www.mokkapps.de">https://www.mokkapps.de</a></p>
+<table>
+    <tr>
+        <th>Latest Blog Posts</th>
+        <th>Tweets</th>
+    </tr>
+    <td>
+  <ul>
+    <li><a href=https://www.mokkapps.de/property-based-testing-with-type-script/>Property Based Testing With Typescript</a></li><li><a href=https://www.mokkapps.de/how-to-generate-angular-and-spring-code-from-open-api-specification/>How To Generate Angular & Spring Code From OpenAPI Specification</a></li><li><a href=https://www.mokkapps.de/sending-message-to-specific-anonymous-user-on-spring-websocket/>Sending Message To Specific Anonymous User On Spring WebSocket</a></li><li><a href=https://www.mokkapps.de/boost-your-productivity-by-using-the-terminal-iterm-and-zsh/>Boost Your Productivity By Using The Terminal (iTerm & ZSH)</a></li><li><a href=https://www.mokkapps.de/manually-lazy-load-modules-and-components-in-angular/>Manually Lazy Load Modules And Components In Angular</a></li>
+  </ul>
+  <a href=https://www.mokkapps.de/blog>More blog posts</a>
+  </td>
+    <td>
+<p><a class="twitter-timeline" data-height="700" href="https://twitter.com/Mokkapps?ref_src=twsrc%5Etfw">Tweets by Mokkapps</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></td></p>
+</table>

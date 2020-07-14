@@ -17,6 +17,22 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
+    - name: Generate Tweet image
+      uses: r-lib/actions/setup-r@v1
+    - name: Install Package Dependencies
+      run: |-
+        Rscript -e "install.packages('remotes')"
+        Rscript -e "remotes::install_github('gadenbuie/tweetrmd')"
+        Rscript -e "remotes::install_github('rstudio/webshot2')"
+        Rscript -e "install.packages('rtweet')"
+    - name: Generate tweet image
+      env:
+        ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+        CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+       run: |-
+          Rscript -e "source('script.R')"
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
