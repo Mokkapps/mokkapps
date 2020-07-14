@@ -1,5 +1,5 @@
 const md = require("markdown-it")({
-  html: true,   // Enable HTML tags in source
+  html: true, // Enable HTML tags in source
   breaks: true, // Convert '\n' in paragraphs into <br>
   linkify: true, // Autoconvert URL-like text to links
 });
@@ -20,20 +20,12 @@ const blogPostLimit = 5;
     console.error(`Failed to load blog posts from ${websiteUrl}`, e);
   }
 
-  const tweets = `\n\n <a class="twitter-timeline" data-height="700" href="https://twitter.com/Mokkapps?ref_src=twsrc%5Etfw">Tweets by Mokkapps</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
+  const twitterImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">`;
 
   text = `
-<table>
-    <tr>
-        <th>Latest Blog Posts</th>
-        <th>Tweets</th>
-    </tr>
-    <td>${blogPosts}</td>
-    <td>${tweets}</td>
-</table>
-  `;
-
-  const twitterImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">    `
+    <h1>Latest Blog Posts</h1>
+    ${blogPosts}
+    ${tweets}   `;
 
   const result = md.render(text);
 
@@ -46,7 +38,7 @@ const blogPostLimit = 5;
 async function loadBlogPosts() {
   const feed = await parser.parseURL(feedUrl);
 
-  let links = '';
+  let links = "";
 
   feed.items.slice(0, blogPostLimit).forEach((item) => {
     links += `<li><a href=${item.link}>${item.title}</a></li>`;
