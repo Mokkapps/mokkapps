@@ -27,10 +27,8 @@ jobs:
         Rscript -e "install.packages('rtweet')"
     - name: Generate tweet image
       env:
-        ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-        CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+        TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+        TWITTER_API_SECRET_KEY: ${{ secrets.TWITTER_API_SECRET_KEY }}
        run: |-
           Rscript -e "source('script.R')"
     - name: Use Node.js ${{ matrix.node-version }}
