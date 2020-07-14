@@ -17,8 +17,9 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
-    - name: Generate Tweet image
+    - name: R
       uses: r-lib/actions/setup-r@v1
+    - name: Generate twitter image
       env:
         TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
         TWITTER_API_SECRET_KEY: ${{ secrets.TWITTER_API_SECRET_KEY }}
