@@ -23,9 +23,10 @@ const blogPostLimit = 5;
   const twitterImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">`;
 
   text = `
-    <h1>Latest Blog Posts</h1>
-    ${blogPosts}
-    ${twitterImage}   `;
+    # Latest Blog Posts \n
+    ${blogPosts} \n
+    # Last Tweet \n
+    ${twitterImage}`;
 
   const result = md.render(text);
 
