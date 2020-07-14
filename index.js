@@ -25,7 +25,7 @@ const blogPostLimit = 5;
   text = `
     <h1>Latest Blog Posts</h1>
     ${blogPosts}
-    ${tweets}   `;
+    ${twitterImage}   `;
 
   const result = md.render(text);
 
