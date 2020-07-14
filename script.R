@@ -4,8 +4,10 @@ library(rtweet)
 lasttweet_token <- function() {
   create_token(
     "github-readme",
-    consumer_key = Sys.getenv("TWITTER_API_KEY"),
-    consumer_secret = Sys.getenv("TWITTER_API_SECRET_KEY"),
+    consumer_key = Sys.getenv("CONSUMER_KEY"),
+    consumer_secret = Sys.getenv("CONSUMER_SECRET"),
+    access_token = Sys.getenv("ACCESS_TOKEN"),
+    access_secret = Sys.getenv("ACCESS_SECRET"),
     set_renv = FALSE
   )
 }

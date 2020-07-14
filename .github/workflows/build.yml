@@ -21,8 +21,10 @@ jobs:
       uses: r-lib/actions/setup-r@v1
     - name: Generate twitter image
       env:
-        TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-        TWITTER_API_SECRET_KEY: ${{ secrets.TWITTER_API_SECRET_KEY }}
+        ACCESS_SECRET: ${{ secrets.TWITTER_API_KEY }}
+        ACCESS_TOKEN: ${{ secrets.TWITTER_API_SECRET_KEY }}
+        CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_ACCESS_TOKEN }}
+        CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
       run: |-
         Rscript -e "install.packages('remotes')"
         Rscript -e "remotes::install_github('gadenbuie/tweetrmd')"
