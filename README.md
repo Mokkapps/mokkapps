@@ -6,4 +6,4 @@
   <a href=https://www.mokkapps.de/blog>More blog posts</a>
 <h1>Last Tweet</h1>
 <img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">
-<p><a href="img%20src=%22https://github.com/mokkapps/mokkapps/blob/master/tweet.png%22%20width=%22600%22">Follow me on Twitter</a> | <a href="https://www.linkedin.com/in/michael-hoffmann-3b8933b1">Connect me on LinkedIn</a> | <a href="https://www.mokkapps.de">Check out my website</a></p>
+<p><a href="https://www.twitter.com/mokkapps">Follow me on Twitter</a> | <a href="https://www.linkedin.com/in/michael-hoffmann-3b8933b1">Connect me on LinkedIn</a> | <a href="https://www.mokkapps.de">Check out my website</a></p>
