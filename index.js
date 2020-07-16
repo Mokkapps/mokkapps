@@ -3,6 +3,7 @@ const md = require("markdown-it")({
   breaks: true, // Convert '\n' in paragraphs into <br>
   linkify: true, // Autoconvert URL-like text to links
 });
+const emoji = require('markdown-it-emoji');
 const fs = require("fs");
 const Parser = require("rss-parser");
 
@@ -12,7 +13,13 @@ const feedUrl = "https://www.mokkapps.de/rss.xml";
 const websiteUrl = "https://www.mokkapps.de";
 const twitterUrl = "https://www.twitter.com/mokkapps";
 const linkedInUrl = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1";
+const instagramUrl = "https://www.instagram.com/mokkapps/";
+const mediumUrl = "https://medium.com/@MokkappsDev";
+const devToUrl = "https://dev.to/mokkapps";
 const blogPostLimit = 5;
+const badgeHeight = "25";
+
+md.use(emoji);
 
 (async () => {
   let blogPosts = "";
@@ -22,9 +29,15 @@ const blogPostLimit = 5;
     console.error(`Failed to load blog posts from ${websiteUrl}`, e);
   }
 
-  const twitterImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">`;
+  const twitterImage = `[<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">](${twitterUrl})`;
+  const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${twitterUrl})`;
+  const linkedInBadge = `[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=${badgeHeight}>](${linkedInUrl})`;
+  const instagramBadge = `[<img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=${badgeHeight}>](${instagramUrl})`;
+  const mediumBadge = `[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=${badgeHeight}>](${mediumUrl})`;
+  const devToBadge = `[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=${badgeHeight}>](${devToUrl})`;
 
-  text = `My name is Michael Hoffmann. I am a freelance software engineer from Germany with focus on Angular. Welcome to my GitHub page!\n\n# Latest Blog Posts\n${blogPosts}\n# Last Tweet\n${twitterImage}\n\n[Follow me on Twitter](${twitterUrl}) | [Connect me on LinkedIn](${linkedInUrl}) | [Check out my website](${websiteUrl})`;
+
+  text = `Hi, I'm Michael Hoffmann. I'm a freelance software engineer from Germany with focus on Angular.\n\n${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n[:globe_with_meridians: Check out my website](${websiteUrl})\n\n# Latest Blog Posts\n${blogPosts}\n# Last Tweet\n${twitterImage}`;
 
   const result = md.render(text);
 
@@ -46,7 +59,7 @@ async function loadBlogPosts() {
   return `
   <ul>
     ${links}
-  </ul>
-  <a href=${websiteUrl}/blog>More blog posts</a>
+  </ul>\n
+  [:arrow_right: More blog posts](${websiteUrl}/blog)
   `;
 }
