@@ -39,12 +39,12 @@ md.use(emoji);
 
   text = `Hi, I'm Michael Hoffmann. I'm a freelance software engineer from Germany with focus on Angular.\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
-  [:globe_with_meridians: Check out my website](${websiteUrl})\n\n
-  ## Latest Blog Posts\n
+  [:arrow_right: Check out my website](${websiteUrl})\n\n
+  [:closed_book: ## Latest Blog Posts]\n
   ${blogPosts}\n
-  # Last Tweet\n
+  [:envelope: ## Last Tweet]\n
   ${twitterImage}\n\n
-  # GitHub Stats\n
+  [:star: ## GitHub Stats]\n
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)`;
 
   const result = md.render(text);
