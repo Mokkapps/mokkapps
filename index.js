@@ -37,7 +37,15 @@ md.use(emoji);
   const devToBadge = `[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=${badgeHeight}>](${devToUrl})`;
 
 
-  text = `Hi, I'm Michael Hoffmann. I'm a freelance software engineer from Germany with focus on Angular.\n\n${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n[:globe_with_meridians: Check out my website](${websiteUrl})\n\n# Latest Blog Posts\n${blogPosts}\n# Last Tweet\n${twitterImage}\n\n# GitHub Stats\n![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)`;
+  text = `Hi, I'm Michael Hoffmann. I'm a freelance software engineer from Germany with focus on Angular.\n\n
+  ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
+  [:globe_with_meridians: Check out my website](${websiteUrl})\n\n
+  ## Latest Blog Posts\n
+  ${blogPosts}\n
+  # Last Tweet\n
+  ${twitterImage}\n\n
+  # GitHub Stats\n
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)`;
 
   const result = md.render(text);
 
