@@ -37,7 +37,7 @@ md.use(emoji);
   const devToBadge = `[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=${badgeHeight}>](${devToUrl})`;
 
 
-  text = `Hi, I'm Michael Hoffmann. I'm a freelance software engineer from Germany with focus on Angular.\n\n
+  text = `# Hi :wave:\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
   [:arrow_right: Check out my website](${websiteUrl})\n\n
   ## Latest Blog Posts\n
