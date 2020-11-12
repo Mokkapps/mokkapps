@@ -3,7 +3,7 @@ const md = require("markdown-it")({
   breaks: true, // Convert '\n' in paragraphs into <br>
   linkify: true, // Autoconvert URL-like text to links
 });
-const emoji = require('markdown-it-emoji');
+const emoji = require("markdown-it-emoji");
 const fs = require("fs");
 const Parser = require("rss-parser");
 
@@ -36,10 +36,12 @@ md.use(emoji);
   const mediumBadge = `[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=${badgeHeight}>](${mediumUrl})`;
   const devToBadge = `[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=${badgeHeight}>](${devToUrl})`;
 
+  const buyMeACoffeeButton = `<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mokkapps" data-color="#FF5F5F" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>`;
 
   text = `# Hi :wave:\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
   [:arrow_right: Check out my website](${websiteUrl})\n\n
+  ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
   ## Last Tweet\n
