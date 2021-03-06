@@ -29,6 +29,7 @@ md.use(emoji);
     console.error(`Failed to load blog posts from ${websiteUrl}`, e);
   }
 
+  const headerImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/header.png" alt="Mokkapps GitHub README header image">`;
   const twitterImage = `[<img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600">](${twitterUrl})`;
   const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${twitterUrl})`;
   const linkedInBadge = `[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=${badgeHeight}>](${linkedInUrl})`;
@@ -40,7 +41,7 @@ md.use(emoji);
       <img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="170" >
     </a>`;
 
-  const text = `# Hi :wave:\n\n
+  const text = `${headerImage}\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
   [:arrow_right: Check out my website](${websiteUrl})\n\n
   ${buyMeACoffeeButton}\n\n
