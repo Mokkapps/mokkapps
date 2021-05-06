@@ -6,7 +6,7 @@
     </a>
 <h2>Latest Blog Posts</h2>
   <ul>
-    <li><a href=https://www.mokkapps.de/blog/run-build-and-deploy-stencil-and-storybook-from-one-repository/>Run, Build & Deploy Stencil and Storybook From One Repository</a></li><li><a href=https://www.mokkapps.de/blog/debug-why-react-re-renders-a-component/>Debug Why React (Re-)Renders a Component</a></li><li><a href=https://www.mokkapps.de/blog/how-to-deploy-a-heroku-backend-to-a-netlify-subdomain/>How to Deploy a Heroku Backend to a Netlify Subdomain</a></li><li><a href=https://www.mokkapps.de/blog/my-top-angular-interview-questions/>My Top Angular Interview Questions</a></li><li><a href=https://www.mokkapps.de/blog/how-i-replaced-google-analytics-with-a-private-open-source-and-self-hosted-alternative/>How I Replaced Google Analytics With a Private, Open-Source & Self-Hosted Alternative</a></li>
+    <li><a href=https://www.mokkapps.de/blog/build-and-deploy-a-serverless-graphql-react-app-using-aws-amplify/>Build and Deploy a Serverless GraphQL React App Using AWS Amplify</a></li><li><a href=https://www.mokkapps.de/blog/run-build-and-deploy-stencil-and-storybook-from-one-repository/>Run, Build & Deploy Stencil and Storybook From One Repository</a></li><li><a href=https://www.mokkapps.de/blog/debug-why-react-re-renders-a-component/>Debug Why React (Re-)Renders a Component</a></li><li><a href=https://www.mokkapps.de/blog/how-to-deploy-a-heroku-backend-to-a-netlify-subdomain/>How to Deploy a Heroku Backend to a Netlify Subdomain</a></li><li><a href=https://www.mokkapps.de/blog/my-top-angular-interview-questions/>My Top Angular Interview Questions</a></li>
   </ul>
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Last Tweet</h2>
