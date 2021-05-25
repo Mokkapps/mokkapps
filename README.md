@@ -6,10 +6,8 @@
     </a>
 <h2>Latest Blog Posts</h2>
   <ul>
-    <li><a href=https://www.mokkapps.de/blog/build-and-deploy-a-serverless-graphql-react-app-using-aws-amplify/>Build and Deploy a Serverless GraphQL React App Using AWS Amplify</a></li><li><a href=https://www.mokkapps.de/blog/run-build-and-deploy-stencil-and-storybook-from-one-repository/>Run, Build & Deploy Stencil and Storybook From One Repository</a></li><li><a href=https://www.mokkapps.de/blog/debug-why-react-re-renders-a-component/>Debug Why React (Re-)Renders a Component</a></li><li><a href=https://www.mokkapps.de/blog/how-to-deploy-a-heroku-backend-to-a-netlify-subdomain/>How to Deploy a Heroku Backend to a Netlify Subdomain</a></li><li><a href=https://www.mokkapps.de/blog/my-top-angular-interview-questions/>My Top Angular Interview Questions</a></li>
+    <li><a href=https://www.mokkapps.de/blog/how-to-use-environment-variables-to-store-secrets-in-aws-amplify-backend/>How to Use Environment Variables to Store Secrets in AWS Amplify Backend</a></li><li><a href=https://www.mokkapps.de/blog/build-and-deploy-a-serverless-graphql-react-app-using-aws-amplify/>Build and Deploy a Serverless GraphQL React App Using AWS Amplify</a></li><li><a href=https://www.mokkapps.de/blog/run-build-and-deploy-stencil-and-storybook-from-one-repository/>Run, Build & Deploy Stencil and Storybook From One Repository</a></li><li><a href=https://www.mokkapps.de/blog/debug-why-react-re-renders-a-component/>Debug Why React (Re-)Renders a Component</a></li><li><a href=https://www.mokkapps.de/blog/how-to-deploy-a-heroku-backend-to-a-netlify-subdomain/>How to Deploy a Heroku Backend to a Netlify Subdomain</a></li>
   </ul>
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
-<h2>Last Tweet</h2>
-<p><a href="https://www.twitter.com/mokkapps"><img src="https://github.com/mokkapps/mokkapps/blob/master/tweet.png" width="600"></a></p>
 <h2>GitHub Stats</h2>
 <p><img src="https://github-readme-stats.vercel.app/api?username=mokkapps&amp;show_icons=true" alt="GitHub Stats"></p>
