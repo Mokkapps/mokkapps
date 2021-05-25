@@ -46,8 +46,8 @@ md.use(emoji);
   ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
-  ## Latest Tweet\n
-  [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&layout=wide)](https://github.com/gazf/github-readme-twitter)\n
+  ## Latest Tweets\n
+  [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&layout=wide)](https://twitter.com/mokkapps)\n
   ## GitHub Stats\n
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)`;
 
