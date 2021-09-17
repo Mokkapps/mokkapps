@@ -12,7 +12,7 @@ const parser = new Parser();
 const feedUrl = "https://www.mokkapps.de/rss.xml";
 const websiteUrl = "https://www.mokkapps.de";
 const twitterUrl = "https://www.twitter.com/mokkapps";
-const linkedInUrl = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1";
+const linkedInUrl = "https://www.linkedin.com/in/mokkapps";
 const instagramUrl = "https://www.instagram.com/mokkapps/";
 const mediumUrl = "https://medium.com/@MokkappsDev";
 const devToUrl = "https://dev.to/mokkapps";
@@ -29,7 +29,7 @@ md.use(emoji);
     console.error(`Failed to load blog posts from ${websiteUrl}`, e);
   }
 
-  const headerImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/header.png" alt="Mokkapps GitHub README header image">`;
+  const headerImage = `<img src="https://i.imgur.com/RK1kR8g.png" alt="Mokkapps GitHub README header image">`;
   const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${twitterUrl})`;
   const linkedInBadge = `[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=${badgeHeight}>](${linkedInUrl})`;
   const instagramBadge = `[<img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=${badgeHeight}>](${instagramUrl})`;
