@@ -5,6 +5,10 @@
       <img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="170" >
     </a>
 <h2>Latest Blog Posts</h2>
+  <ul>
+    <li><a href=https://www.mokkapps.de/blog/why-i-love-vue-3-s-composition-api/>Why I Love Vue 3's Composition API</a></li><li><a href=https://www.mokkapps.de/blog/my-top-vue-js-interview-questions/>My Top Vue.js Interview Questions</a></li><li><a href=https://www.mokkapps.de/blog/why-i-picked-vue-js-as-my-freelancer-niche/>Why I Picked Vue.js as My Freelancer Niche</a></li><li><a href=https://www.mokkapps.de/blog/track-twitter-follower-growth-over-time-using-an-serverless-node-js-api-on-aws-amplify/>Track Twitter Follower Growth Over Time Using A Serverless Node.js API on AWS Amplify</a></li><li><a href=https://www.mokkapps.de/blog/use-git-bisect-to-find-the-commit-that-introduced-a-bug/>Use Git Bisect to Find the Commit That Introduced a Bug</a></li>
+  </ul>
+<p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Tweets</h2>
 <p><a href="https://twitter.com/mokkapps"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&amp;layout=wide" alt="github-readme-twitter"></a></p>
 <h2>GitHub Stats</h2>
