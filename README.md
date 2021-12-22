@@ -5,6 +5,10 @@
       <img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="170" >
     </a>
 <h2>Latest Blog Posts</h2>
+  <ul>
+    <li><a href=https://www.mokkapps.de/blog/how-i-built-a-twitter-keyword-monitoring-using-a-serverless-node-js-function-with-aws-amplify/>How I Built a Twitter Keyword Monitoring Using a Serverless Node.js Function With AWS Amplify</a></li><li><a href=https://www.mokkapps.de/blog/document-and-test-vue-3-components-with-storybook/>Document & Test Vue 3 Components With Storybook</a></li><li><a href=https://www.mokkapps.de/blog/why-i-love-vue-3-s-composition-api/>Why I Love Vue 3's Composition API</a></li><li><a href=https://www.mokkapps.de/blog/my-top-vue-js-interview-questions/>My Top Vue.js Interview Questions</a></li><li><a href=https://www.mokkapps.de/blog/why-i-picked-vue-js-as-my-freelancer-niche/>Why I Picked Vue.js as My Freelancer Niche</a></li>
+  </ul>
+<p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Tweets</h2>
 <p><a href="https://twitter.com/mokkapps"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&amp;layout=wide" alt="github-readme-twitter"></a></p>
 <h2>GitHub Stats</h2>
