@@ -5,10 +5,6 @@
       <img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="170" >
     </a>
 <h2>Latest Blog Posts</h2>
-  <ul>
-    <li><a href=https://www.mokkapps.de/blog/how-to-create-a-custom-code-block-with-nuxt-content-v2/>How to Create a Custom Code Block With Nuxt Content v2</a></li><li><a href=https://www.mokkapps.de/blog/create-a-blog-with-nuxt-content-v2/>Create a Blog With Nuxt Content v2</a></li><li><a href=https://www.mokkapps.de/blog/chrome-recorder-record-replay-and-measure-user-flows/>Chrome Recorder: Record, Replay and Measure User Flows</a></li><li><a href=https://www.mokkapps.de/blog/dark-mode-switch-with-tailwind-css-and-nuxt-3/>Dark Mode Switch With Tailwind CSS & Nuxt 3</a></li><li><a href=https://www.mokkapps.de/blog/building-a-vue-3-desktop-app-with-pinia-electron-and-quasar/>Building a Vue 3 Desktop App With Pinia, Electron and Quasar</a></li>
-  </ul>
-<p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Tweets</h2>
 <p><a href="https://twitter.com/mokkapps"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&amp;layout=wide" alt="github-readme-twitter"></a></p>
 <h2>GitHub Stats</h2>
