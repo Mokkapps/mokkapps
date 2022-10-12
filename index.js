@@ -11,6 +11,7 @@ const parser = new Parser();
 
 const feedUrl = "https://www.mokkapps.de/rss.xml";
 const websiteUrl = "https://www.mokkapps.de";
+const weekylVueNewsUrl = "https://weekly-vue.news";
 const twitterUrl = "https://www.twitter.com/mokkapps";
 const linkedInUrl = "https://www.linkedin.com/in/mokkapps";
 const instagramUrl = "https://www.instagram.com/mokkapps/";
@@ -43,6 +44,7 @@ md.use(emoji);
   const text = `${headerImage}\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
   [:arrow_right: Check out my website](${websiteUrl})\n\n
+  [:arrow_right: Weekly Vue News](${weekylVueNewsUrl})\n\n
   ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
