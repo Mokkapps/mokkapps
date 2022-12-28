@@ -7,7 +7,7 @@
     </a>
 <h2>Latest Blog Posts</h2>
   <ul>
-    <li><a href=https://mokkapps.de/blog/create-a-table-of-contents-with-active-states-in-nuxt-3>Create a Table of Contents With Active States in Nuxt 3</a></li><li><a href=https://mokkapps.de/blog/building-a-polite-newsletter-popup-with-nuxt-3>Building a Polite Newsletter Popup With Nuxt 3</a></li><li><a href=https://mokkapps.de/blog/create-an-rss-feed-with-nuxt-3-and-nuxt-content-v2>Create an RSS Feed With Nuxt 3 and Nuxt Content v2</a></li><li><a href=https://mokkapps.de/blog/how-to-create-a-custom-code-block-with-nuxt-content-v2>How to Create a Custom Code Block With Nuxt Content v2</a></li><li><a href=https://mokkapps.de/blog/create-a-blog-with-nuxt-content-v2>Create a Blog With Nuxt Content v2</a></li>
+    <li><a href=https://mokkapps.de/blog/how-i-replaced-revue-with-a-custom-built-newsletter-service-using-nuxt-3-supabase-serverless-and-amazon-ses>How I Replaced Revue With a Custom-Built Newsletter Service Using Nuxt 3, Supabase, Serverless, and Amazon SES</a></li><li><a href=https://mokkapps.de/blog/create-a-table-of-contents-with-active-states-in-nuxt-3>Create a Table of Contents With Active States in Nuxt 3</a></li><li><a href=https://mokkapps.de/blog/building-a-polite-newsletter-popup-with-nuxt-3>Building a Polite Newsletter Popup With Nuxt 3</a></li><li><a href=https://mokkapps.de/blog/create-an-rss-feed-with-nuxt-3-and-nuxt-content-v2>Create an RSS Feed With Nuxt 3 and Nuxt Content v2</a></li><li><a href=https://mokkapps.de/blog/how-to-create-a-custom-code-block-with-nuxt-content-v2>How to Create a Custom Code Block With Nuxt Content v2</a></li>
   </ul>
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Tweets</h2>
