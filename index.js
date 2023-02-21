@@ -59,7 +59,7 @@ md.use(emoji);
   ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
-  ## Latest Vue & Nuxt Tips\n
+  ## Latest Newsletter Issues\n
   ${newsletterIssues}\n
   ## Latest Tweets\n
   [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&layout=wide)](https://twitter.com/mokkapps)\n
