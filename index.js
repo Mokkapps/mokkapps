@@ -10,13 +10,17 @@ const Parser = require("rss-parser");
 const parser = new Parser();
 
 const feedUrl = "https://www.mokkapps.de/rss.xml";
+const newsletterFeedUrl = "https://weekly-vue.news/rss.xml";
 const websiteUrl = "https://www.mokkapps.de";
+const newsletterUrl = "https://weekly-vue.news";
 const twitterUrl = "https://www.twitter.com/mokkapps";
 const linkedInUrl = "https://www.linkedin.com/in/michael-hoffmann-3b8933b1";
 const instagramUrl = "https://www.instagram.com/mokkapps/";
+const youTubeUrl = "https://www.youtube.com/@mokkapps";
 const mediumUrl = "https://medium.com/@MokkappsDev";
 const devToUrl = "https://dev.to/mokkapps";
 const blogPostLimit = 5;
+const newsletterIssueLimit = 5;
 const badgeHeight = "25";
 
 md.use(emoji);
@@ -29,10 +33,18 @@ md.use(emoji);
     console.error(`Failed to load blog posts from ${websiteUrl}`, e);
   }
 
+  let newsletterIssues = "";
+  try {
+    blogPosts = await loadNewsletterIssues();
+  } catch (e) {
+    console.error(`Failed to load newsletter issues`, e);
+  }
+
   const headerImage = `<img src="https://github.com/mokkapps/mokkapps/blob/master/header.png" alt="Mokkapps GitHub README header image">`;
   const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${twitterUrl})`;
   const linkedInBadge = `[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=${badgeHeight}>](${linkedInUrl})`;
   const instagramBadge = `[<img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=${badgeHeight}>](${instagramUrl})`;
+  const youTubeBadge = `[<img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=${badgeHeight}>](${youTubeUrl})`;
   const mediumBadge = `[<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=${badgeHeight}>](${mediumUrl})`;
   const devToBadge = `[<img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=${badgeHeight}>](${devToUrl})`;
 
@@ -41,11 +53,14 @@ md.use(emoji);
     </a>`;
 
   const text = `${headerImage}\n\n
-  ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${mediumBadge} ${devToBadge}\n\n
+  ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${youTubeBadge} ${mediumBadge} ${devToBadge}\n\n
   [:arrow_right: Check out my website](${websiteUrl})\n\n
+  [:arrow_right: Check out my weekly Vue newsletter](${newsletterUrl})\n\n
   ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
+  ## Latest Vue & Nuxt Tips\n
+  ${newsletterIssues}\n
   ## Latest Tweets\n
   [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&layout=wide)](https://twitter.com/mokkapps)\n
   ## GitHub Stats\n
@@ -73,5 +88,22 @@ async function loadBlogPosts() {
     ${links}
   </ul>\n
   [:arrow_right: More blog posts](${websiteUrl}/blog)
+  `;
+}
+
+async function loadNewsletterIssues() {
+  const feed = await parser.parseURL(newsletterFeedUrl);
+
+  let links = "";
+
+  feed.items.slice(0, newsletterIssueLimit).forEach((item) => {
+    links += `<li><a href=${item.link}>${item.title}</a></li>`;
+  });
+
+  return `
+  <ul>
+    ${links}
+  </ul>\n
+  [:arrow_right: More issues](${newsletterUrl}/issues)
   `;
 }
