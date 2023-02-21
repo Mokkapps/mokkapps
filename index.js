@@ -54,9 +54,6 @@ md.use(emoji);
 
   const text = `${headerImage}\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${youTubeBadge} ${mediumBadge} ${devToBadge}\n\n
-  [:arrow_right: Check out my website](${websiteUrl})\n\n
-  [:arrow_right: Check out my weekly Vue newsletter](${newsletterUrl})\n\n
-  ${buyMeACoffeeButton}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
   ## Latest Newsletter Issues\n
@@ -64,7 +61,8 @@ md.use(emoji);
   ## Latest Tweets\n
   [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&layout=wide)](https://twitter.com/mokkapps)\n
   ## GitHub Stats\n
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)`;
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)\n\n
+  ${buyMeACoffeeButton}`;
 
   const result = md.render(text);
 
