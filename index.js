@@ -35,7 +35,7 @@ md.use(emoji);
 
   let newsletterIssues = "";
   try {
-    blogPosts = await loadNewsletterIssues();
+    newsletterIssues = await loadNewsletterIssues();
   } catch (e) {
     console.error(`Failed to load newsletter issues`, e);
   }
