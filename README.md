@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/80>Weekly Vue News #80 - Destructure Props in Composition API Without Losing Reactivity</a></li><li><a href=https://weekly-vue.news/issues/79>Weekly Vue News #79 - Analyze Production Bundle in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/78>Weekly Vue News #78 - Use Setup Stores in Pinia for More Flexibility</a></li><li><a href=https://weekly-vue.news/issues/77>Weekly Vue News #77 - Adding a Latest Route in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/76>Weekly Vue News #76 - Typing Component Events</a></li>
+    <li><a href=https://weekly-vue.news/issues/81>Weekly Vue News #81 - Re-Rendering Vue Routes When Path Parameters Change</a></li><li><a href=https://weekly-vue.news/issues/80>Weekly Vue News #80 - Destructure Props in Composition API Without Losing Reactivity</a></li><li><a href=https://weekly-vue.news/issues/79>Weekly Vue News #79 - Analyze Production Bundle in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/78>Weekly Vue News #78 - Use Setup Stores in Pinia for More Flexibility</a></li><li><a href=https://weekly-vue.news/issues/77>Weekly Vue News #77 - Adding a Latest Route in Nuxt 3</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>Latest Tweets</h2>
