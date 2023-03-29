@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/85>Weekly Vue News #85 - Rendering Modes In Nuxt</a></li><li><a href=https://weekly-vue.news/issues/84>Weekly Vue News #84 - Debugging in Templates</a></li><li><a href=https://weekly-vue.news/issues/83>Weekly Vue News #83 - Use Scoped Slots in a Child Component to Provide Data for Parent Component</a></li><li><a href=https://weekly-vue.news/issues/82>Weekly Vue News #82 - Use Nuxt DevTools to Know Your App Better</a></li><li><a href=https://weekly-vue.news/issues/81>Weekly Vue News #81 - Re-Rendering Vue Routes When Path Parameters Change</a></li>
+    <li><a href=https://weekly-vue.news/issues/86>Weekly Vue News #86 - When to Use Render Function</a></li><li><a href=https://weekly-vue.news/issues/85>Weekly Vue News #85 - Rendering Modes In Nuxt</a></li><li><a href=https://weekly-vue.news/issues/84>Weekly Vue News #84 - Debugging in Templates</a></li><li><a href=https://weekly-vue.news/issues/83>Weekly Vue News #83 - Use Scoped Slots in a Child Component to Provide Data for Parent Component</a></li><li><a href=https://weekly-vue.news/issues/82>Weekly Vue News #82 - Use Nuxt DevTools to Know Your App Better</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>Latest Tweets</h2>
