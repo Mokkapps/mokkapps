@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/90>Weekly Vue News #90 - Optimize Performance Using shallowRef</a></li><li><a href=https://weekly-vue.news/issues/89>Weekly Vue News #89 - Render Nuxt Component Only on Client-Side</a></li><li><a href=https://weekly-vue.news/issues/88>Weekly Vue News #88 - Vue Tip: Validate Events and Prop Types</a></li><li><a href=https://weekly-vue.news/issues/87>Weekly Vue News #87 - Refresh Data in Nuxt 3 by Watching Sources Using useAsyncData</a></li><li><a href=https://weekly-vue.news/issues/86>Weekly Vue News #86 - When to Use Render Function</a></li>
+    <li><a href=https://weekly-vue.news/issues/91>Weekly Vue News #91 - Declare and Mutate v-model Props as Normal Variable Using defineModel</a></li><li><a href=https://weekly-vue.news/issues/90>Weekly Vue News #90 - Optimize Performance Using shallowRef</a></li><li><a href=https://weekly-vue.news/issues/89>Weekly Vue News #89 - Render Nuxt Component Only on Client-Side</a></li><li><a href=https://weekly-vue.news/issues/88>Weekly Vue News #88 - Vue Tip: Validate Events and Prop Types</a></li><li><a href=https://weekly-vue.news/issues/87>Weekly Vue News #87 - Refresh Data in Nuxt 3 by Watching Sources Using useAsyncData</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>Latest Tweets</h2>
