@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/93>Weekly Vue News #93 - Effortless Handle Asynchronous Components With Suspense</a></li><li><a href=https://weekly-vue.news/issues/92>Weekly Vue News #92 - Use Nuxt Layers to Share Components, Utils, and Configuration Between Your Apps</a></li><li><a href=https://weekly-vue.news/issues/91>Weekly Vue News #91 - Declare and Mutate v-model Props as Normal Variable Using defineModel</a></li><li><a href=https://weekly-vue.news/issues/90>Weekly Vue News #90 - Optimize Performance Using shallowRef</a></li><li><a href=https://weekly-vue.news/issues/89>Weekly Vue News #89 - Render Nuxt Component Only on Client-Side</a></li>
+    <li><a href=https://weekly-vue.news/issues/94>Weekly Vue News #94 - What's New in Vue 3.3</a></li><li><a href=https://weekly-vue.news/issues/93>Weekly Vue News #93 - Effortless Handle Asynchronous Components With Suspense</a></li><li><a href=https://weekly-vue.news/issues/92>Weekly Vue News #92 - Use Nuxt Layers to Share Components, Utils, and Configuration Between Your Apps</a></li><li><a href=https://weekly-vue.news/issues/91>Weekly Vue News #91 - Declare and Mutate v-model Props as Normal Variable Using defineModel</a></li><li><a href=https://weekly-vue.news/issues/90>Weekly Vue News #90 - Optimize Performance Using shallowRef</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>Latest Tweets</h2>
