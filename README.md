@@ -10,8 +10,6 @@
     <li><a href=https://weekly-vue.news/issues/96>Weekly Vue News #96 - Move Homepage to Sub-Folder in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/95>Weekly Vue News #95 - Chaining Event Modifiers</a></li><li><a href=https://weekly-vue.news/issues/94>Weekly Vue News #94 - What's New in Vue 3.3</a></li><li><a href=https://weekly-vue.news/issues/93>Weekly Vue News #93 - Effortless Handle Asynchronous Components With Suspense</a></li><li><a href=https://weekly-vue.news/issues/92>Weekly Vue News #92 - Use Nuxt Layers to Share Components, Utils, and Configuration Between Your Apps</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
-<h2>Latest Tweets</h2>
-<p><a href="https://twitter.com/mokkapps"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=mokkapps&amp;layout=wide" alt="github-readme-twitter"></a></p>
 <h2>GitHub Stats</h2>
 <p><img src="https://github-readme-stats.vercel.app/api?username=mokkapps&amp;show_icons=true" alt="GitHub Stats"></p>
   <a href="https://www.buymeacoffee.com/mokkapps" target="_blank" rel="noreferrer nofollow">
