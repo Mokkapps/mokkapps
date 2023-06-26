@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/98>Weekly Vue News #98 - Add Custom iframe Tab to Nuxt DevTools</a></li><li><a href=https://weekly-vue.news/issues/97>Weekly Vue News #97 - Debug Watcher</a></li><li><a href=https://weekly-vue.news/issues/96>Weekly Vue News #96 - Move Homepage to Sub-Folder in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/95>Weekly Vue News #95 - Chaining Event Modifiers</a></li><li><a href=https://weekly-vue.news/issues/94>Weekly Vue News #94 - What's New in Vue 3.3</a></li>
+    <li><a href=https://weekly-vue.news/issues/99>Weekly Vue News #99 - Detect Mouse Hover</a></li><li><a href=https://weekly-vue.news/issues/98>Weekly Vue News #98 - Add Custom iframe Tab to Nuxt DevTools</a></li><li><a href=https://weekly-vue.news/issues/97>Weekly Vue News #97 - Debug Watcher</a></li><li><a href=https://weekly-vue.news/issues/96>Weekly Vue News #96 - Move Homepage to Sub-Folder in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/95>Weekly Vue News #95 - Chaining Event Modifiers</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
