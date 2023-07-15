@@ -21,6 +21,6 @@
     "markdown-it": "^11.0.0",
     "markdown-it-emoji": "^1.4.0",
     "prettier": "^2.0.5",
-    "rss-parser": "^3.8.0"
+    "rss-parser": "^3.13.0"
   }
 }
