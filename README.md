@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/103>Weekly Vue News #103 - Differentiate Client and Server Components in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/102>Weekly Vue News #102 - Use Eager Computed Without Lazy Evaluation</a></li><li><a href=https://weekly-vue.news/issues/101>Weekly Vue News #101 - Lazy Load Components in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/100>Weekly Vue News #100 - Don't use v-if with v-for</a></li><li><a href=https://weekly-vue.news/issues/99>Weekly Vue News #99 - Detect Mouse Hover</a></li>
+    <li><a href=https://weekly-vue.news/issues/104>Weekly Vue News #104 - Split Your SFC into Multiple Files</a></li><li><a href=https://weekly-vue.news/issues/103>Weekly Vue News #103 - Differentiate Client and Server Components in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/102>Weekly Vue News #102 - Use Eager Computed Without Lazy Evaluation</a></li><li><a href=https://weekly-vue.news/issues/101>Weekly Vue News #101 - Lazy Load Components in Nuxt 3</a></li><li><a href=https://weekly-vue.news/issues/100>Weekly Vue News #100 - Don't use v-if with v-for</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
