@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/107>Weekly Vue News #107 - Dynamic Return Values in Composables</a></li><li><a href=https://weekly-vue.news/issues/106>Weekly Vue News #106 - Use VueUse to Unleash the Power of Utility Functions</a></li><li><a href=https://weekly-vue.news/issues/105>Weekly Vue News #105 - Emit Event From Composable</a></li><li><a href=https://weekly-vue.news/issues/104>Weekly Vue News #104 - Split Your SFC into Multiple Files</a></li><li><a href=https://weekly-vue.news/issues/103>Weekly Vue News #103 - Differentiate Client and Server Components in Nuxt</a></li>
+    <li><a href=https://weekly-vue.news/issues/108>Weekly Vue News #108 - Manually Stop Watcher</a></li><li><a href=https://weekly-vue.news/issues/107>Weekly Vue News #107 - Dynamic Return Values in Composables</a></li><li><a href=https://weekly-vue.news/issues/106>Weekly Vue News #106 - Use VueUse to Unleash the Power of Utility Functions</a></li><li><a href=https://weekly-vue.news/issues/105>Weekly Vue News #105 - Emit Event From Composable</a></li><li><a href=https://weekly-vue.news/issues/104>Weekly Vue News #104 - Split Your SFC into Multiple Files</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
