@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/110>Weekly Vue News #110 - An URL Object Working on Both Server-Side and Client-Side in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/109>Weekly Vue News #109 - Simple State Management With Composition API</a></li><li><a href=https://weekly-vue.news/issues/108>Weekly Vue News #108 - Manually Stop Watcher</a></li><li><a href=https://weekly-vue.news/issues/107>Weekly Vue News #107 - Dynamic Return Values in Composables</a></li><li><a href=https://weekly-vue.news/issues/106>Weekly Vue News #106 - Use VueUse to Unleash the Power of Utility Functions</a></li>
+    <li><a href=https://weekly-vue.news/issues/0>TEST</a></li><li><a href=https://weekly-vue.news/issues/110>Weekly Vue News #110 - An URL Object Working on Both Server-Side and Client-Side in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/109>Weekly Vue News #109 - Simple State Management With Composition API</a></li><li><a href=https://weekly-vue.news/issues/108>Weekly Vue News #108 - Manually Stop Watcher</a></li><li><a href=https://weekly-vue.news/issues/107>Weekly Vue News #107 - Dynamic Return Values in Composables</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
