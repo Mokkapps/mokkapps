@@ -6,6 +6,10 @@
   </ul>
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
+  <ul>
+    <li><a href=https://weekly-vue.news/issues/0>[Weekly Vue News] Test Issue</a></li><li><a href=https://weekly-vue.news/issues/111>Weekly Vue News #111 - Deep Watch on Arrays</a></li><li><a href=https://weekly-vue.news/issues/110>Weekly Vue News #110 - An URL Object Working on Both Server-Side and Client-Side in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/109>Weekly Vue News #109 - Simple State Management With Composition API</a></li><li><a href=https://weekly-vue.news/issues/108>Weekly Vue News #108 - Manually Stop Watcher</a></li>
+  </ul>
+<p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
 <p><img src="https://github-readme-stats.vercel.app/api?username=mokkapps&amp;show_icons=true" alt="GitHub Stats"></p>
   <a href="https://www.buymeacoffee.com/mokkapps" target="_blank" rel="noreferrer nofollow">
