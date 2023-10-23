@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/115>Weekly Vue News #115 - Detecting Server vs. Client-Side Code Execution in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/114>Weekly Vue News #114 - Event Handling</a></li><li><a href=https://weekly-vue.news/issues/113>Weekly Vue News #113 - Use Your Composables Synchronously</a></li><li><a href=https://weekly-vue.news/issues/112>Weekly Vue News #112 - Custom SPA Loading Template for Your Nuxt Application</a></li><li><a href=https://weekly-vue.news/issues/111>Weekly Vue News #111 - Deep Watch on Arrays</a></li>
+    <li><a href=https://weekly-vue.news/issues/116>Weekly Vue News #116 - Dynamic Slot Names</a></li><li><a href=https://weekly-vue.news/issues/115>Weekly Vue News #115 - Detecting Server vs. Client-Side Code Execution in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/114>Weekly Vue News #114 - Event Handling</a></li><li><a href=https://weekly-vue.news/issues/113>Weekly Vue News #113 - Use Your Composables Synchronously</a></li><li><a href=https://weekly-vue.news/issues/112>Weekly Vue News #112 - Custom SPA Loading Template for Your Nuxt Application</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
