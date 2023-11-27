@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/120>Weekly Vue News #120 - Nuxt Server Routes Playground</a></li><li><a href=https://weekly-vue.news/issues/119>Weekly Vue News #119 - Simple Pinia History With Undo and Redo Functionality</a></li><li><a href=https://weekly-vue.news/issues/118>Weekly Vue News #118 - Accessing Template Ref in Child Component</a></li><li><a href=https://weekly-vue.news/issues/117>Weekly Vue News #117 - How to Fix 'Nuxt Instance Unavailable' Error</a></li><li><a href=https://weekly-vue.news/issues/116>Weekly Vue News #116 - Dynamic Slot Names</a></li>
+    <li><a href=https://weekly-vue.news/issues/121>Weekly Vue News #121 - Automatically Import Components</a></li><li><a href=https://weekly-vue.news/issues/120>Weekly Vue News #120 - Nuxt Server Routes Playground</a></li><li><a href=https://weekly-vue.news/issues/119>Weekly Vue News #119 - Simple Pinia History With Undo and Redo Functionality</a></li><li><a href=https://weekly-vue.news/issues/118>Weekly Vue News #118 - Accessing Template Ref in Child Component</a></li><li><a href=https://weekly-vue.news/issues/117>Weekly Vue News #117 - How to Fix 'Nuxt Instance Unavailable' Error</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
