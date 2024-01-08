@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/126>Weekly Vue News #126 - Handle Client-Side Errors in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/125>Weekly Vue News #125 - Best Way to Force Re-Render Vue Component</a></li><li><a href=https://weekly-vue.news/issues/124>Weekly Vue News #124 - Document Your Component Props Using JSDoc</a></li><li><a href=https://weekly-vue.news/issues/123>Weekly Vue News #123 - Composable to Define Keyboard Shortcuts</a></li><li><a href=https://weekly-vue.news/issues/122>Weekly Vue News #122 - Use a Head Manager</a></li>
+    <li><a href=https://weekly-vue.news/issues/127>Weekly Vue News #127 - Watch Slot Changes</a></li><li><a href=https://weekly-vue.news/issues/126>Weekly Vue News #126 - Handle Client-Side Errors in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/125>Weekly Vue News #125 - Best Way to Force Re-Render Vue Component</a></li><li><a href=https://weekly-vue.news/issues/124>Weekly Vue News #124 - Document Your Component Props Using JSDoc</a></li><li><a href=https://weekly-vue.news/issues/123>Weekly Vue News #123 - Composable to Define Keyboard Shortcuts</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
