@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/131>Weekly Vue News #131 - Passing Slots to Child Components</a></li><li><a href=https://weekly-vue.news/issues/130>Weekly Vue News #130 - Nuxt Runtime (App) Properties</a></li><li><a href=https://weekly-vue.news/issues/129>Weekly Vue News #129 - Cancel Fetch API Request in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/128>Weekly Vue News #128 - Check if Component Has Event Listener Attached</a></li><li><a href=https://weekly-vue.news/issues/127>Weekly Vue News #127 - Watch Slot Changes</a></li>
+    <li><a href=https://weekly-vue.news/issues/132>Weekly Vue News #132 - Unlocking the Power of v-for Loops</a></li><li><a href=https://weekly-vue.news/issues/131>Weekly Vue News #131 - Passing Slots to Child Components</a></li><li><a href=https://weekly-vue.news/issues/130>Weekly Vue News #130 - Nuxt Runtime (App) Properties</a></li><li><a href=https://weekly-vue.news/issues/129>Weekly Vue News #129 - Cancel Fetch API Request in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/128>Weekly Vue News #128 - Check if Component Has Event Listener Attached</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
