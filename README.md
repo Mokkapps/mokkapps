@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/133>Weekly Vue News #133 - Trigger Transition Programmatically</a></li><li><a href=https://weekly-vue.news/issues/132>Weekly Vue News #132 - Unlocking the Power of v-for Loops</a></li><li><a href=https://weekly-vue.news/issues/131>Weekly Vue News #131 - Passing Slots to Child Components</a></li><li><a href=https://weekly-vue.news/issues/130>Weekly Vue News #130 - Nuxt Runtime (App) Properties</a></li><li><a href=https://weekly-vue.news/issues/129>Weekly Vue News #129 - Cancel Fetch API Request in Nuxt</a></li>
+    <li><a href=https://weekly-vue.news/issues/134>Weekly Vue News #134 - Don't Use Reactive Object for Template Refs</a></li><li><a href=https://weekly-vue.news/issues/133>Weekly Vue News #133 - Trigger Transition Programmatically</a></li><li><a href=https://weekly-vue.news/issues/132>Weekly Vue News #132 - Unlocking the Power of v-for Loops</a></li><li><a href=https://weekly-vue.news/issues/131>Weekly Vue News #131 - Passing Slots to Child Components</a></li><li><a href=https://weekly-vue.news/issues/130>Weekly Vue News #130 - Nuxt Runtime (App) Properties</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
