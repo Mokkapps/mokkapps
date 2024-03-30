@@ -6,6 +6,10 @@
   </ul>
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
+  <ul>
+    <li><a href=https://weekly-vue.news/issues/138>Weekly Vue News #138 - Validate Props in Script Setup With TypeScript</a></li><li><a href=https://weekly-vue.news/issues/137>Weekly Vue News #137 - Access dynamic parameters in your server routes</a></li><li><a href=https://weekly-vue.news/issues/136>Weekly Vue News #136 - Computed Caching vs. Methods</a></li><li><a href=https://weekly-vue.news/issues/135>Weekly Vue News #135 - How Nuxt Uses Nitro, h3 and ofetch Internally</a></li><li><a href=https://weekly-vue.news/issues/134>Weekly Vue News #134 - Don't Use Reactive Object for Template Refs</a></li>
+  </ul>
+<p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
 <p><img src="https://github-readme-stats.vercel.app/api?username=mokkapps&amp;show_icons=true" alt="GitHub Stats"></p>
   <a href="https://www.buymeacoffee.com/mokkapps" target="_blank" rel="noreferrer nofollow">
