@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/140>Weekly Vue News #140 - Use Environment-Specific Nuxt Configurations</a></li><li><a href=https://weekly-vue.news/issues/139>Weekly Vue News #139 - Use Nitro as Mock Server</a></li><li><a href=https://weekly-vue.news/issues/138>Weekly Vue News #138 - Validate Props in Script Setup With TypeScript</a></li><li><a href=https://weekly-vue.news/issues/137>Weekly Vue News #137 - Access dynamic parameters in your server routes</a></li><li><a href=https://weekly-vue.news/issues/136>Weekly Vue News #136 - Computed Caching vs. Methods</a></li>
+    <li><a href=https://weekly-vue.news/issues/141>Weekly Vue News #141 - Share Styling Using Wrapper Components</a></li><li><a href=https://weekly-vue.news/issues/140>Weekly Vue News #140 - Use Environment-Specific Nuxt Configurations</a></li><li><a href=https://weekly-vue.news/issues/139>Weekly Vue News #139 - Use Nitro as Mock Server</a></li><li><a href=https://weekly-vue.news/issues/138>Weekly Vue News #138 - Validate Props in Script Setup With TypeScript</a></li><li><a href=https://weekly-vue.news/issues/137>Weekly Vue News #137 - Access dynamic parameters in your server routes</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
