@@ -7,7 +7,7 @@
 <p><a href="https://www.mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/144>Weekly Vue News #144 - Simpler Two-Way Binding in Vue With defineModel</a></li><li><a href=https://weekly-vue.news/issues/143>Weekly Vue News #143 - Once Watchers</a></li><li><a href=https://weekly-vue.news/issues/142>Weekly Vue News #142 - Dedupe Fetch Calls in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/141>Weekly Vue News #141 - Share Styling Using Wrapper Components</a></li><li><a href=https://weekly-vue.news/issues/140>Weekly Vue News #140 - Use Environment-Specific Nuxt Configurations</a></li>
+    <li><a href=https://weekly-vue.news/issues/145>Weekly Vue News #145 - Mutate Your State Inside of the Provider Using Provide and Inject</a></li><li><a href=https://weekly-vue.news/issues/144>Weekly Vue News #144 - Simpler Two-Way Binding in Vue With defineModel</a></li><li><a href=https://weekly-vue.news/issues/143>Weekly Vue News #143 - Once Watchers</a></li><li><a href=https://weekly-vue.news/issues/142>Weekly Vue News #142 - Dedupe Fetch Calls in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/141>Weekly Vue News #141 - Share Styling Using Wrapper Components</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
