@@ -1,47 +1,88 @@
-const markdownit = require("markdown-it")({
+import markdownit from 'markdown-it';
+import { full as emoji } from 'markdown-it-emoji';
+import fs from 'fs';
+import Parser from 'rss-parser';
+
+const md = markdownit({
   html: true, // Enable HTML tags in source
   breaks: true, // Convert '\n' in paragraphs into <br>
   linkify: true, // Autoconvert URL-like text to links
 });
-const emoji = require("markdown-it-emoji");
-const fs = require("fs");
-const Parser = require("rss-parser");
+md.use(emoji);
 
 const parser = new Parser();
 
-const feedUrl = "https://www.mokkapps.de/rss.xml";
-const newsletterFeedUrl = "https://weekly-vue.news/rss.xml";
-const websiteUrl = "https://www.mokkapps.de";
-const newsletterUrl = "https://weekly-vue.news";
-const twitterUrl = "https://www.twitter.com/mokkapps";
-const linkedInUrl = "https://www.linkedin.com/in/mokkapps";
-const instagramUrl = "https://www.instagram.com/mokkapps/";
-const youTubeUrl = "https://www.youtube.com/@mokkapps";
-const mediumUrl = "https://medium.com/@MokkappsDev";
-const devToUrl = "https://dev.to/mokkapps";
+const feedUrl = 'https://mokkapps.de/rss.xml';
+const newsletterFeedUrl = 'https://weekly-vue.news/rss.xml';
+const websiteUrl = 'https://mokkapps.de';
+const newsletterUrl = 'https://weekly-vue.news';
+const xUrl = 'https://www.x.com/mokkapps';
+const linkedInUrl = 'https://www.linkedin.com/in/mokkapps';
+const instagramUrl = 'https://www.instagram.com/mokkapps/';
+const youTubeUrl = 'https://www.youtube.com/@mokkapps';
+const mediumUrl = 'https://medium.com/@MokkappsDev';
+const devToUrl = 'https://dev.to/mokkapps';
 const blogPostLimit = 5;
 const newsletterIssueLimit = 5;
-const badgeHeight = "25";
+const badgeHeight = '25';
 
-markdownit.use(emoji.full);
+async function loadBlogPosts() {
+  console.log(`🏗️ Fetching blog posts from ${feedUrl}`);
+  const feed = await parser.parseURL(feedUrl);
+  console.log(`✅ Fetched ${feed.items.length} blog posts from ${websiteUrl}`);
 
-(async () => {
-  let blogPosts = "";
+  let links = '';
+
+  feed.items.slice(0, blogPostLimit).forEach((item) => {
+    links += `<li><a href=${item.link}>${item.title}</a></li>`;
+  });
+
+  return `
+  <ul>
+  ${links}
+  </ul>\n
+  [:arrow_right: More blog posts](${websiteUrl}/blog)
+  `;
+}
+
+async function loadNewsletterIssues() {
+  console.log(`🏗️ Fetching newsletter issues from ${newsletterFeedUrl}`);
+  const feed = await parser.parseURL(newsletterFeedUrl);
+  console.log(
+    `✅ Fetched ${feed.items.length} newsletter issues from ${newsletterFeedUrl}`,
+  );
+
+  let links = '';
+
+  feed.items.slice(0, newsletterIssueLimit).forEach((item) => {
+    links += `<li><a href=${item.link}>${item.title}</a></li>`;
+  });
+
+  return `
+  <ul>
+    ${links}
+  </ul>\n
+  [:arrow_right: More issues](${newsletterUrl}/issues)
+  `;
+}
+
+const generateReadme = async () => {
+  let blogPosts = '';
   try {
     blogPosts = await loadBlogPosts();
   } catch (error) {
-    console.error(`Failed to load blog posts from ${websiteUrl}`, error);
+    console.error(`🚨 Failed to load blog posts from ${websiteUrl}`, error);
   }
 
-  let newsletterIssues = "";
+  let newsletterIssues = '';
   try {
     newsletterIssues = await loadNewsletterIssues();
   } catch (error) {
-    console.error(`Failed to load newsletter issues`, e);
+    console.error(`🚨 Failed to load newsletter issues`, e);
   }
 
   const headerImage = `<img src="https://github.com/Mokkapps/mokkapps/blob/master/header.png" alt="Mokkapps GitHub README header image">`;
-  const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${twitterUrl})`;
+  const twitterBadge = `[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=${badgeHeight}>](${xUrl})`;
   const linkedInBadge = `[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=${badgeHeight}>](${linkedInUrl})`;
   const instagramBadge = `[<img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=${badgeHeight}>](${instagramUrl})`;
   const youTubeBadge = `[<img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=${badgeHeight}>](${youTubeUrl})`;
@@ -62,52 +103,17 @@ markdownit.use(emoji.full);
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)\n\n
   ${buyMeACoffeeButton}`;
 
-  const result = markdownit.render(text);
+  const result = md.render(text);
 
-  console.log('Rendered text from markdown', result);
+  fs.writeFileSync('README.md', result);
+  console.log(`✅ Successfully wrote README.md file`);
+  console.log(result);
+};
 
-  fs.writeFile("README.md", result, function (err) {
-    if (err) {
-      return console.error('Failed to write README.md',err);  
-    }
-    console.log(`Successfully updated README.md`);
-  });
-})();
-
-async function loadBlogPosts() {
-  console.log(`Fetching blog posts from ${feedUrl}`)
-  const feed = await parser.parseURL(feedUrl);
-  console.log(`Fetched ${feed.items.length} blog posts from ${websiteUrl}`)
-  
-  let links = "";
-  
-  feed.items.slice(0, blogPostLimit).forEach((item) => {
-    links += `<li><a href=${item.link}>${item.title}</a></li>`;
-  });
-  
-  return `
-  <ul>
-  ${links}
-  </ul>\n
-  [:arrow_right: More blog posts](${websiteUrl}/blog)
-  `;
-}
-
-async function loadNewsletterIssues() {
-  console.log(`Fetching newsletter issues from ${newsletterFeedUrl}`)
-  const feed = await parser.parseURL(newsletterFeedUrl);
-  console.log(`Fetched ${feed.items.length} newsletter issues from ${newsletterFeedUrl}`)
-
-  let links = "";
-
-  feed.items.slice(0, newsletterIssueLimit).forEach((item) => {
-    links += `<li><a href=${item.link}>${item.title}</a></li>`;
-  });
-
-  return `
-  <ul>
-    ${links}
-  </ul>\n
-  [:arrow_right: More issues](${newsletterUrl}/issues)
-  `;
+try {
+  await generateReadme();
+} catch (error) {
+  console.error('🚨 Failed to generate README', error);
+} finally {
+  process.exit();
 }

@@ -4,29 +4,29 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '40 * * * *'
+    - cron: '40 * * * *'
 
 jobs:
   build:
     runs-on: macOS-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
-    - name: Install dependencies
-      run: |
-        npm ci
-    - name: Update README
-      run: |-
-        npm start
-        cat README.md
-    - name: Commit and push if changed
-      run: |-
-        git add .
-        git diff
-        git config --global user.email "github-action-bot@example.com"
-        git config --global user.name "GitHub Action Bot"
-        git commit -m "Updated README" -a || echo "No changes to commit"
-        git push
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Update README
+        run: |-
+          npm start
+          cat README.md
+      - name: Commit and push if changed
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "github-action-bot@example.com"
+          git config --global user.name "GitHub Action Bot"
+          git commit -m "Updated README" -a || echo "No changes to commit"
+          git push

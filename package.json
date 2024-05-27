@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "<!-- **Mokkapps/mokkapps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
