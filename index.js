@@ -1,4 +1,4 @@
-const md = require("markdown-it")({
+const markdownit = require("markdown-it")({
   html: true, // Enable HTML tags in source
   breaks: true, // Convert '\n' in paragraphs into <br>
   linkify: true, // Autoconvert URL-like text to links
@@ -23,20 +23,20 @@ const blogPostLimit = 5;
 const newsletterIssueLimit = 5;
 const badgeHeight = "25";
 
-md.use(emoji);
+markdownit.use(emoji.full);
 
 (async () => {
   let blogPosts = "";
   try {
     blogPosts = await loadBlogPosts();
-  } catch (e) {
-    console.error(`Failed to load blog posts from ${websiteUrl}`, e);
+  } catch (error) {
+    console.error(`Failed to load blog posts from ${websiteUrl}`, error);
   }
 
   let newsletterIssues = "";
   try {
     newsletterIssues = await loadNewsletterIssues();
-  } catch (e) {
+  } catch (error) {
     console.error(`Failed to load newsletter issues`, e);
   }
 
@@ -62,33 +62,41 @@ md.use(emoji);
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mokkapps&show_icons=true)\n\n
   ${buyMeACoffeeButton}`;
 
-  const result = md.render(text);
+  const result = markdownit.render(text);
+
+  console.log('Rendered text from markdown', result);
 
   fs.writeFile("README.md", result, function (err) {
-    if (err) return console.log(err);
-    console.log(`${result} > README.md`);
+    if (err) {
+      return console.error('Failed to write README.md',err);  
+    }
+    console.log(`Successfully updated README.md`);
   });
 })();
 
 async function loadBlogPosts() {
+  console.log(`Fetching blog posts from ${feedUrl}`)
   const feed = await parser.parseURL(feedUrl);
-
+  console.log(`Fetched ${feed.items.length} blog posts from ${websiteUrl}`)
+  
   let links = "";
-
+  
   feed.items.slice(0, blogPostLimit).forEach((item) => {
     links += `<li><a href=${item.link}>${item.title}</a></li>`;
   });
-
+  
   return `
   <ul>
-    ${links}
+  ${links}
   </ul>\n
   [:arrow_right: More blog posts](${websiteUrl}/blog)
   `;
 }
 
 async function loadNewsletterIssues() {
+  console.log(`Fetching newsletter issues from ${newsletterFeedUrl}`)
   const feed = await parser.parseURL(newsletterFeedUrl);
+  console.log(`Fetched ${feed.items.length} newsletter issues from ${newsletterFeedUrl}`)
 
   let links = "";
 
