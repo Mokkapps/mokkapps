@@ -7,7 +7,7 @@
 <p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/147>Weekly Vue News #147 - When You Should Use a Composable</a></li><li><a href=https://weekly-vue.news/issues/146>Weekly Vue News #146 - My Top 5 Nuxt Modules</a></li><li><a href=https://weekly-vue.news/issues/145>Weekly Vue News #145 - Mutate Your State Inside of the Provider Using Provide and Inject</a></li><li><a href=https://weekly-vue.news/issues/144>Weekly Vue News #144 - Simpler Two-Way Binding in Vue With defineModel</a></li><li><a href=https://weekly-vue.news/issues/143>Weekly Vue News #143 - Once Watchers</a></li>
+    <li><a href=https://weekly-vue.news/issues/148>Weekly Vue News #148 - How I Write Class & Style Bindings</a></li><li><a href=https://weekly-vue.news/issues/147>Weekly Vue News #147 - When You Should Use a Composable</a></li><li><a href=https://weekly-vue.news/issues/146>Weekly Vue News #146 - My Top 5 Nuxt Modules</a></li><li><a href=https://weekly-vue.news/issues/145>Weekly Vue News #145 - Mutate Your State Inside of the Provider Using Provide and Inject</a></li><li><a href=https://weekly-vue.news/issues/144>Weekly Vue News #144 - Simpler Two-Way Binding in Vue With defineModel</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
