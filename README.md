@@ -7,7 +7,7 @@
 <p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/151>Weekly Vue News #151 - Cache Component Instances With the KeepAlive Component</a></li><li><a href=https://weekly-vue.news/issues/150>Weekly Vue News #150 - Change Status Code of the Response in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/149>Weekly Vue News #149 - NuxtHub: A deployment and administration platform for Nuxt</a></li><li><a href=https://weekly-vue.news/issues/148>Weekly Vue News #148 - How I Write Class & Style Bindings</a></li><li><a href=https://weekly-vue.news/issues/147>Weekly Vue News #147 - When You Should Use a Composable</a></li>
+    <li><a href=https://weekly-vue.news/issues/152>Weekly Vue News #152 - Self-Host Your Nuxt App With Coolify</a></li><li><a href=https://weekly-vue.news/issues/151>Weekly Vue News #151 - Cache Component Instances With the KeepAlive Component</a></li><li><a href=https://weekly-vue.news/issues/150>Weekly Vue News #150 - Change Status Code of the Response in Nuxt</a></li><li><a href=https://weekly-vue.news/issues/149>Weekly Vue News #149 - NuxtHub: A deployment and administration platform for Nuxt</a></li><li><a href=https://weekly-vue.news/issues/148>Weekly Vue News #148 - How I Write Class & Style Bindings</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
