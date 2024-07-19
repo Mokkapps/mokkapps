@@ -7,7 +7,7 @@
 <p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/154>Weekly Vue News #154 - Dockerizing a Nuxt 3 App</a></li><li><a href=https://weekly-vue.news/issues/153>Weekly Vue News #153 - Destructure in v-for</a></li><li><a href=https://weekly-vue.news/issues/152>Weekly Vue News #152 - Self-Host Your Nuxt App With Coolify</a></li><li><a href=https://weekly-vue.news/issues/151>Weekly Vue News #151 - Cache Component Instances With the KeepAlive Component</a></li><li><a href=https://weekly-vue.news/issues/150>Weekly Vue News #150 - Change Status Code of the Response in Nuxt</a></li>
+    <li><a href=/issues/154>Weekly Vue News #154 - Dockerizing a Nuxt 3 App</a></li><li><a href=/issues/153>Weekly Vue News #153 - Destructure in v-for</a></li><li><a href=/issues/152>Weekly Vue News #152 - Self-Host Your Nuxt App With Coolify</a></li><li><a href=/issues/151>Weekly Vue News #151 - Cache Component Instances With the KeepAlive Component</a></li><li><a href=/issues/150>Weekly Vue News #150 - Change Status Code of the Response in Nuxt</a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
