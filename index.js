@@ -55,7 +55,7 @@ async function loadNewsletterIssues() {
   let links = '';
 
   feed.items.slice(0, newsletterIssueLimit).forEach((item) => {
-    links += `<li><a href=${newsletterUrl}${item.link} target="_blank" rel="noreferrer nofollow">${item.title}</a></li>`;
+    links += `<li><a href=${item.link} target="_blank" rel="noreferrer nofollow">${item.title}</a></li>`;
   });
 
   return `
