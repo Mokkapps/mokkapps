@@ -7,7 +7,7 @@
 <p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
-    <li><a href=https://weekly-vue.news/issues/v2/160 target="_blank" rel="noreferrer nofollow">Weekly Vue News #196 - Nuxt 3.17 is out</a></li><li><a href=https://weekly-vue.news/issues/v2/159 target="_blank" rel="noreferrer nofollow">Weekly Vue News #195 - Nuxt UI v3.1, Nuxt Charts, Nuxt Crash Course</a></li><li><a href=https://weekly-vue.news/issues/v2/158 target="_blank" rel="noreferrer nofollow">Weekly Vue News #194 - Reactive Time Ago</a></li><li><a href=https://weekly-vue.news/issues/v2/157 target="_blank" rel="noreferrer nofollow">Weekly Vue News #193 - Subscribing to State Changes in Pinia </a></li><li><a href=https://weekly-vue.news/issues/v2/156 target="_blank" rel="noreferrer nofollow">Weekly Vue News #192 - Validate Vue Router Query Strings with Zod</a></li>
+    <li><a href=https://weekly-vue.news/issues/v2/161 target="_blank" rel="noreferrer nofollow">Weekly Vue News #197 - Nuxt Data Fetching Improvements</a></li><li><a href=https://weekly-vue.news/issues/v2/160 target="_blank" rel="noreferrer nofollow">Weekly Vue News #196 - Nuxt 3.17 is out</a></li><li><a href=https://weekly-vue.news/issues/v2/159 target="_blank" rel="noreferrer nofollow">Weekly Vue News #195 - Nuxt UI v3.1, Nuxt Charts, Nuxt Crash Course</a></li><li><a href=https://weekly-vue.news/issues/v2/158 target="_blank" rel="noreferrer nofollow">Weekly Vue News #194 - Reactive Time Ago</a></li><li><a href=https://weekly-vue.news/issues/v2/157 target="_blank" rel="noreferrer nofollow">Weekly Vue News #193 - Subscribing to State Changes in Pinia </a></li>
   </ul>
 <p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
