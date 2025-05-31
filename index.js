@@ -94,7 +94,7 @@ const generateReadme = async () => {
     </a>`;
 
   const nuxtStarterKitPromo = `<a href="https://nuxtstarterkit.com" target="_blank" rel="noreferrer nofollow">
-      <img src="https://mokkapps.twic.pics/nuxtstarterkit.com/promo.png" alt="Nuxt Starter Kit" height="200" >
+      <img src="https://mokkapps.twic.pics/nuxtstarterkit.com/promo.png" alt="Nuxt Starter Kit" height="500" >
     </a>`;
 
   const text = `${headerImage}\n\n
