@@ -21,7 +21,7 @@
   "dependencies": {
     "markdown-it": "^14.1.0",
     "markdown-it-emoji": "^3.0.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.5.3",
     "rss-parser": "^3.13.0"
   }
 }

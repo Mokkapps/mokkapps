@@ -93,8 +93,14 @@ const generateReadme = async () => {
       <img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="170" >
     </a>`;
 
+  const nuxtStarterKitPromo = `<a href="https://nuxtstarterkit.com" target="_blank" rel="noreferrer nofollow">
+      <img src="https://mokkapps.twic.pics/nuxtstarterkit.com/promo.png" alt="Nuxt Starter Kit" height="200" >
+    </a>`;
+
   const text = `${headerImage}\n\n
   ${twitterBadge} ${linkedInBadge} ${instagramBadge} ${youTubeBadge} ${mediumBadge} ${devToBadge}\n\n
+  ## Check My Nuxt Starter Kit\n
+  ${nuxtStarterKitPromo}\n\n
   ## Latest Blog Posts\n
   ${blogPosts}\n
   ## Latest Newsletter Issues\n
