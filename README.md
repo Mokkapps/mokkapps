@@ -5,6 +5,10 @@
       <img src="https://mokkapps.twic.pics/nuxtstarterkit.com/promo.png" alt="Nuxt Starter Kit" height="500" >
     </a>
 <h2>Latest Blog Posts</h2>
+  <ul>
+  <li><a href=https://mokkapps.de/blog/connecting-mysql-database-nuxt-drizzle-orm target="_blank" rel="noreferrer nofollow">Connecting a MySQL Database in Nuxt with Drizzle ORM</a></li><li><a href=https://mokkapps.de/vue-tips/accessing-pinia-store-in-nuxt-production-build target="_blank" rel="noreferrer nofollow">Nuxt Tip: Accessing Pinia Store in Production Build</a></li><li><a href=https://mokkapps.de/blog/vercel-acquires-nuxtlabs target="_blank" rel="noreferrer nofollow">Vercel Acquires NuxtLabs: What This Means for the Future of Nuxt</a></li><li><a href=https://mokkapps.de/blog/implementing-esr-nuxt target="_blank" rel="noreferrer nofollow">Implementing Edge-Side Rendering (ESR) in Nuxt 3+ for Enhanced Performance</a></li><li><a href=https://mokkapps.de/blog/why-i-developed-my-own-nuxt-starter-kit target="_blank" rel="noreferrer nofollow">Why I Developed My Own Nuxt Starter Kit for SaaS Products</a></li>
+  </ul>
+<p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
     <li><a href=https://weekly-vue.news/issues/v2/175 target="_blank" rel="noreferrer nofollow">Weekly Vue News #211 - Bulletproof Watchers, Effect Scopes & More</a></li><li><a href=https://weekly-vue.news/issues/v2/174 target="_blank" rel="noreferrer nofollow">Weekly Vue News #210 - Modals, Nuxt Data Fetching, ViteLand Updates & More</a></li><li><a href=https://weekly-vue.news/issues/v2/173 target="_blank" rel="noreferrer nofollow">Weekly Vue News #209 - Explore Nuxt 4, Vue PDF Viewer, Docus v4, and Latest Vue News</a></li><li><a href=https://weekly-vue.news/issues/v2/172 target="_blank" rel="noreferrer nofollow">Weekly Vue News #208 - Vue 3.6 Alpha, Nuxt Performance, and Modern Node.js Patterns</a></li><li><a href=https://weekly-vue.news/issues/v2/171 target="_blank" rel="noreferrer nofollow">Weekly Vue News #207 - Nuxt 4.0 is out</a></li>
