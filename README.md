@@ -5,6 +5,10 @@
       <img src="https://mokkapps.twic.pics/nuxtstarterkit.com/promo.png" alt="Nuxt Starter Kit" height="500" >
     </a>
 <h2>Latest Blog Posts</h2>
+  <ul>
+  <li><a href=https://mokkapps.de/blog/vue-state-management-composables-provide-inject-pinia target="_blank" rel="noreferrer nofollow">Navigating State Management in Vue: Composables, Provide/Inject, and Pinia</a></li><li><a href=https://mokkapps.de/blog/why-i-switched-back-from-vscode-to-intellij-idea target="_blank" rel="noreferrer nofollow">Why I Switched Back From VS Code to IntelliJ IDEA: A Developer's Journey</a></li><li><a href=https://mokkapps.de/blog/connecting-mysql-database-nuxt-drizzle-orm target="_blank" rel="noreferrer nofollow">Connecting a MySQL Database in Nuxt with Drizzle ORM</a></li><li><a href=https://mokkapps.de/vue-tips/accessing-pinia-store-in-nuxt-production-build target="_blank" rel="noreferrer nofollow">Nuxt Tip: Accessing Pinia Store in Production Build</a></li><li><a href=https://mokkapps.de/blog/vercel-acquires-nuxtlabs target="_blank" rel="noreferrer nofollow">Vercel Acquires NuxtLabs: What This Means for the Future of Nuxt</a></li>
+  </ul>
+<p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
 <h2>Latest Newsletter Issues</h2>
   <ul>
     <li><a href=https://weekly-vue.news/issues/v2/194 target="_blank" rel="noreferrer nofollow">Weekly Vue News #230 - What’s New in Vue 3.6, Nuxt Content, and Dev Performance</a></li><li><a href=https://weekly-vue.news/issues/v2/193 target="_blank" rel="noreferrer nofollow">Weekly Vue News #229 - Bundle Insights, Browsers Scores & Nuxt UI Powerups</a></li><li><a href=https://weekly-vue.news/issues/v2/192 target="_blank" rel="noreferrer nofollow">Weekly Vue News #228 - Async Rendering, TypeScript 7, and the Evolution of Nuxt</a></li><li><a href=https://weekly-vue.news/issues/v2/191 target="_blank" rel="noreferrer nofollow">Weekly Vue News #227 - Mastering Nuxt Layers, DevTools & Vite 8 Beta</a></li><li><a href=https://weekly-vue.news/issues/v2/190 target="_blank" rel="noreferrer nofollow">Weekly Vue News #226 - Smart Builds & Solid Code: Scaling Vue/Nuxt While Staying Secure</a></li>
