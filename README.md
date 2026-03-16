@@ -9,6 +9,11 @@
   <li><a href=https://mokkapps.de/blog/vue-state-management-composables-provide-inject-pinia target="_blank" rel="noreferrer nofollow">Navigating State Management in Vue: Composables, Provide/Inject, and Pinia</a></li><li><a href=https://mokkapps.de/blog/why-i-switched-back-from-vscode-to-intellij-idea target="_blank" rel="noreferrer nofollow">Why I Switched Back From VS Code to IntelliJ IDEA: A Developer's Journey</a></li><li><a href=https://mokkapps.de/blog/connecting-mysql-database-nuxt-drizzle-orm target="_blank" rel="noreferrer nofollow">Connecting a MySQL Database in Nuxt with Drizzle ORM</a></li><li><a href=https://mokkapps.de/vue-tips/accessing-pinia-store-in-nuxt-production-build target="_blank" rel="noreferrer nofollow">Nuxt Tip: Accessing Pinia Store in Production Build</a></li><li><a href=https://mokkapps.de/blog/vercel-acquires-nuxtlabs target="_blank" rel="noreferrer nofollow">Vercel Acquires NuxtLabs: What This Means for the Future of Nuxt</a></li>
   </ul>
 <p><a href="https://mokkapps.de/blog">➡️ More blog posts</a></p>
+<h2>Latest Newsletter Issues</h2>
+  <ul>
+    <li><a href=https://weekly-vue.news/issues/v2/204 target="_blank" rel="noreferrer nofollow">Weekly Vue News #240 - TypeScript at Scale, Pinia Colada v1, Vite Recap & effectScope Deep Dive</a></li><li><a href=https://weekly-vue.news/issues/v2/203 target="_blank" rel="noreferrer nofollow">Weekly Vue News #239 - Accessibility tips, Nuxt UI updates, and power tools for dev productivity</a></li><li><a href=https://weekly-vue.news/issues/v2/202 target="_blank" rel="noreferrer nofollow">Weekly Vue News #238 - Nuxt UI v4, business wins with Nuxt, and VueUse</a></li><li><a href=https://weekly-vue.news/issues/v2/201 target="_blank" rel="noreferrer nofollow">Weekly Vue News #237 - Top Nuxt Modules for 2026, TypeScript 6.0 Beta, and AI Content Tools</a></li><li><a href=https://weekly-vue.news/issues/v2/200 target="_blank" rel="noreferrer nofollow">Weekly Vue News #246 - Vue on the Edge, Nuxt CLI Upgrades, and the Vite January Recap</a></li>
+  </ul>
+<p><a href="https://weekly-vue.news/issues">➡️ More issues</a></p>
 <h2>GitHub Stats</h2>
 <p><img src="https://github-readme-stats.vercel.app/api?username=mokkapps&amp;show_icons=true" alt="GitHub Stats"></p>
   <a href="https://www.buymeacoffee.com/mokkapps" target="_blank" rel="noreferrer nofollow">
