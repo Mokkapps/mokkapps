@@ -3,8 +3,6 @@ name: Build README
 on:
   push:
   workflow_dispatch:
-  schedule:
-    - cron: '40 * * * *'
 
 jobs:
   build:
